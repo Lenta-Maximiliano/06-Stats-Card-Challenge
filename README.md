@@ -16,7 +16,7 @@ Esta es una solución para el desafío [Stats preview card component](https://ww
 ## Descripción General
 
 ### Enlaces
-- **URL del Sitio en Vivo**: [Ver sitio aquí](hhttps://06-stats-card-challenge.netlify.app/)
+- **URL del Sitio en Vivo**: [Ver sitio aquí](https://06-stats-card-challenge.netlify.app/)
 
 ---
 
