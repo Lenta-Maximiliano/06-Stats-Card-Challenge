@@ -1,0 +1,20 @@
+.image-section__image{
+  background-image: url(/images/image-header-mobile.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 240px;
+}
+.image-section__layer{
+  background-color: var(--Layer);
+  height: 100%;
+  width: 100%;
+}
+
+/*----------Desktop----------*/
+@media screen and (min-width: 1200px){
+  .image-section__image{
+    width: 540px;
+    height: 100%;
+    background-image: url(/images/image-header-desktop.jpg);
+  }
+}

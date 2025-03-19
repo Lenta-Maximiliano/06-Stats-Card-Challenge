@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Deca:wght@100..900&display=swap');
+
+:root{
+  --VeryDarkBlue: hsl(233, 47%, 7%); /*(main background)*/
+  --DarkDesaturatedBlue: hsl(244, 38%, 16%); /*(card background)*/
+  --SoftViolet: hsl(277, 64%, 61%); /*(accent)*/
+  --White: hsl(0, 0%, 100%); /*(main heading, stats)*/
+  --SlightlyTransparentWhiteP: hsla(0, 0%, 100%, 0.75); /*(main paragraph)*/
+  --SlightlyTransparentWhiteS: hsla(0, 0%, 100%, 0.6); /*(stat headings)*/
+  --Layer: rgba(110, 30, 160, 0.7);
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-size: 15px;
+  font-family: "Lexend Deca", serif;
+  background-color: var(--VeryDarkBlue);
+}
+
+

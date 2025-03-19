@@ -1,0 +1,27 @@
+.footer { 
+  width: 328px;
+  margin: 0 auto;
+}
+.footer__attribution{
+  font-size: 12px; 
+  text-align: center; 
+  margin: -40px auto 80px;
+  color: var(--White);
+  width: 220px;
+}
+.footer__link { 
+  margin-left: 5px;
+  color: hsl(228, 45%, 44%); 
+}
+
+/*----------Desktop----------*/
+@media screen and (min-width: 1200px){
+  .footer{
+    width: unset;
+  }
+  .footer__attribution { 
+    font-size: 13px;
+    width: unset;
+    margin-top: -25px;
+  }
+}

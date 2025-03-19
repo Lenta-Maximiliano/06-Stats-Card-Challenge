@@ -1,0 +1,43 @@
+.stats-section{
+  padding: 40px 33px;
+  text-align: center;
+}
+.stats-section__title{
+  font-family: "Inter", serif;
+  color: var(--White);
+  font-size: 1.8em;
+  height: 115px;
+}
+.stats-section__highlight{
+  color: var(--SoftViolet);
+}
+.stats-section__description{
+  font-family: "Inter", serif;
+  color: var(--SlightlyTransparentWhiteP);
+  font-size: 1em;
+  line-height: 25px;
+  height: 137px;
+}
+.stats{
+  color: var(--SlightlyTransparentWhiteS);
+  line-height: 25px;
+}
+
+/*----------Desktop----------*/
+@media screen and (min-width: 1200px){
+  .stats-section{
+    padding: 75px 70px;
+    text-align: left;
+  }
+  .stats-section__title{
+    font-size: 2.5em;
+  }
+  .stats-section__description{
+    margin-right: 70px;
+  }
+  .stats{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 70px;
+  }
+}

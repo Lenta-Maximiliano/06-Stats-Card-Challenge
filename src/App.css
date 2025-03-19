@@ -1,0 +1,20 @@
+
+.app__main{
+  height: 782px;
+  width: 328px;
+  background-color: var(--DarkDesaturatedBlue);
+  margin: 88px auto;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+/*----------Desktop----------*/
+@media screen and (min-width: 1200px){
+  .app__main{
+    width: 1110px;
+    height: 448px;
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 100px auto;
+  }
+}
